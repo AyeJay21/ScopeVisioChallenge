@@ -34,7 +34,7 @@ public class PostCodeService implements PostCodeInterface {
      */
     @Override
     public void postalCodeImportFromCSV() throws IOException {
-        File file = new File("postcodes.csv");
+        File file = new File("/app/resources/postcodes.csv");
         CSVReader reader = new CSVReader(new FileReader(file));
 
         String[] records;

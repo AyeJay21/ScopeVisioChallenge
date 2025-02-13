@@ -1,6 +1,8 @@
 package com.example.codingchallenge.vehicleType;
 
-// Definierte Werte für Fahrzuegtypen
+/**
+ * Definierte Werte für Fahrzuegtypen
+ */
 public enum VehicleType {
     CAR(0.1),
     LIMOUSINE(0.3),

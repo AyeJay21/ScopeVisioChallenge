@@ -42,8 +42,8 @@ public class InsuranceApplicationService implements InsuranceApplicationInterfac
      * @param regionFactor
      * @return Double
      * @throws InvalidInputException if...
-     * estimateYearlyKilometer, vehicleType oder regionFactor ist null
-     * estimateYearlyKilometer ist < 0
+     * estimateYearlyKilometer, vehicleType oder regionFactor null ist
+     * estimateYearlyKilometer < 0 ist
      */
     @Override
     public Double calculateBonus(Double estimateYearlyKilometer, VehicleType vehicleType, Double regionFactor) throws InvalidInputException {
